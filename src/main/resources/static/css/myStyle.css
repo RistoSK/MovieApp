@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    background: #757F9A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Roboto;
+}
+
+#container {
+    background:#f2f2f2;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    margin: 100px auto;   /* distance from top of the page(auto=center)*/
+    width: auto; /* how long it is (left-right) */
+}
+
+#containerLogin {
+	   background:#f2f2f2;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    margin: 100px auto;   /* distance from top of the page(auto=center)*/
+    width: 360px; /* how long it is (left-right) */
+}
+
+h1 {
+    background-color:#2980b9;
+    color: white;
+    font-size: 24px;
+    font-weight: normal; /* bold or in this case normal */
+    margin: 0; /* distance between header box and box below */
+    padding: 10px 20px; /* space between box and header */
+    text-transform: uppercase;
+}
+
+input {
+    background-color: white;
+   	border: 1px ridge #0d0d0d;
+    font-size: 18px;
+    padding: 13px 13px 13px 20px; /* make the box larger */
+    display: block;
+    box-sizing: border-box;
+    width: 100%; /* goes across the whole container(need box-sizing)*/
+}
+
+input:focus { /* when input is clicked */
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+#logOutBtn {
+    width: 20%; /* goes across the whole container(need box-sizing)*/
+    float:right;
+}
+
